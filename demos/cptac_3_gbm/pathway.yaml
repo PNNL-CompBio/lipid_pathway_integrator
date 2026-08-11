@@ -1,0 +1,611 @@
+entities: 
+  1:
+    - 
+      name: PC (no AA)
+      tags:
+        display: true
+    - 
+      name: LMGP01010000
+      tags: 
+        classification:
+          category: Glycerophospholipids [GP]
+          class: Glycerophosphocholines [GP01]
+          subclass: Diacylglycerophosphocholines [GP0101]
+        is_lipid_group: true
+        source: LIPID MAPS
+        exclude_fas:
+          - "20:4"
+  2:
+    - 
+      name: PEMT
+      tags:
+        is_protein: true
+        display: true
+    - 
+      name: ENSG00000133027
+      tags:
+        source: Ensembl
+  3:
+    - 
+      name: PE (no AA)
+      tags:
+        display: true
+    - 
+      name: LMGP02010000
+      tags: 
+        classification:
+          category: Glycerophospholipids [GP]
+          class: Glycerophosphoethanolamines [GP02]
+          subclass: Diacylglycerophosphoethanolamines [GP0201]
+        is_lipid_group: true
+        source: LIPID MAPS
+        exclude_fas:
+          - "20:4"
+  4:
+    -
+      name: PLA2G4A
+      tags:
+        is_protein: true
+        display: true
+    -
+      name: ENSG00000116711
+      tags:
+        source: Ensembl
+  5:
+    -
+      name: PLA2G4C
+      tags:
+        is_protein: true
+        display: true
+    -
+      name: ENSG00000105499
+      tags:
+        source: Ensembl
+  6:
+    - 
+      name: LPC (no AA)
+      tags:
+        display: true
+    - 
+      name: LMGP01050000
+      tags: 
+        classification:
+          category: Glycerophospholipids [GP]
+          class: Glycerophosphocholines [GP01]
+          subclass: Monoacylglycerophosphocholines [GP0105]
+        is_lipid_group: true
+        source: LIPID MAPS
+        exclude_fas:
+          - "20:4"
+  7:
+    - 
+      name: LPE (no AA)
+      tags:
+        display: true
+    - 
+      name: LMGP02050000
+      tags: 
+        classification:
+          category: Glycerophospholipids [GP]
+          class: Glycerophosphoethanolamines [GP02]
+          subclass: Monoacylglycerophosphoethanolamines [GP0205]
+        is_lipid_group: true
+        source: LIPID MAPS
+        exclude_fas:
+          - "20:4"
+  8:
+    -
+      name: LPCAT3
+      tags:
+        is_protein: true
+        display: true
+    - 
+      name: MBOAT5
+      tags:
+        is_protein: true
+    -
+      name: ENSG00000111684
+      tags:
+        source: Ensembl
+  9:
+    - 
+      name: "CoA 20:4"
+      tags: {}
+  23:
+    - 
+      name: Arachidonic acid
+      tags:
+        display: true
+    - 
+      name: "FA 20:4"
+      tags: {}
+  10:
+    -
+      name: ACSL4
+      tags:
+        is_protein: true
+        display: true
+    -
+      name: ENSG00000068366
+      tags:
+        source: Ensembl
+  111:
+    -
+      name: ALOX15
+      tags:
+        is_protein: true
+        display: true
+  11:
+    -
+      name: ALOX15B
+      tags:
+        is_protein: true
+        display: true
+    -
+      name: ENSG00000179593
+      tags:
+        source: Ensembl
+  12:
+    - 
+      name: PC (oxidized)
+      tags:
+        display: true
+    - 
+      name: LMGP20010000
+      tags: 
+        classification:
+          category: Glycerophospholipids [GP]
+          class: Oxidized glycerophospholipids [GP20]
+          subclass: Oxidized glycerophosphocholines [GP2001]
+        is_lipid_group: true
+        source: LIPID MAPS
+  13:
+    - 
+      name: PE (oxidized)
+      tags:
+        display: true
+    - 
+      name: LMGP020020000
+      tags: 
+        classification:
+          category: Glycerophospholipids [GP]
+          class: Oxidized glycerophospholipids [GP20]
+          subclass: Oxidized glycerophosphoethanolamines [GP2002]
+        is_lipid_group: true
+        source: LIPID MAPS
+  14:
+    -
+      name: GPX4
+      tags:
+        is_protein: true
+        display: true
+    -
+      name: ENSG00000167468
+      tags:
+        source: Ensembl
+  15: 
+    - 
+      name: GSSG
+      tags: 
+        display: true
+    - 
+      name: Glutathione disulfide
+      tags: {}
+    - 
+      name: "cpd:C00127"
+      tags:
+        source: KEGG
+  16: 
+    - 
+      name: GSH
+      tags: 
+        display: true
+    - 
+      name: Glutathione
+      tags: {}
+    - 
+      name: "cpd:C00051"
+      tags:
+        source: KEGG
+    - 
+      name: 3353
+      tags:
+        source: PubChem
+  17:
+    - 
+      name: GSS
+      tags: 
+        display: true
+        is_protein: true
+  18: 
+    - 
+      name: Glycine
+      tags: 
+        display: true
+    - 
+      name: Gly
+      tags: {}
+    - 
+      name: glycine
+      tags: {}
+    - 
+      name: "cpd:C00037"
+      tags:
+        source: KEGG
+    - 
+      name: 3339
+      tags:
+        source: PubChem
+  19: 
+    - 
+      name: gamma-Glutamylcysteine
+      tags: 
+        display: true
+    - 
+      name: gamma-L-Glutamyl-L-cysteine
+      tags: {}
+    - 
+      name: "cpd:C00669"
+      tags:
+        source: KEGG   
+    - 
+      name: 3938
+      tags:
+        source: PubChem
+  20:
+    - 
+      name: GCL
+      tags: 
+        display: true
+        is_protein: true
+    -
+      name: GCLC
+      tags:
+        is_protein: true
+  21: 
+    - 
+      name: Cysteine
+      tags: 
+        display: true
+    - 
+      name: L-cysteine
+      tags: {}
+    - 
+      name: Cys
+      tags: {}
+    - 
+      name: "cpd:C00097"
+      tags:
+        source: KEGG
+    - 
+      name: 3397
+      tags:
+        source: PubChem
+  22: 
+    - 
+      name: Glutamate
+      tags: 
+        display: true
+    - 
+      name: L-glutamate
+      tags: {}
+    - 
+      name: L-glutamic acid
+      tags: {}
+    - 
+      name: Glu
+      tags: {}
+    - 
+      name: "cpd:C00025"
+      tags:
+        source: KEGG
+    - 
+      name: 3327
+      tags:
+        source: PubChem
+  24:
+    - 
+      name: PC (with AA)
+      tags:
+        display: true
+    - 
+      name: LMGP01010000
+      tags: 
+        classification:
+          category: Glycerophospholipids [GP]
+          class: Glycerophosphocholines [GP01]
+          subclass: Diacylglycerophosphocholines [GP0101]
+        is_lipid_group: true
+        source: LIPID MAPS
+        require_fas:
+          - "20:4"
+  25:
+    - 
+      name: PE (with AA)
+      tags:
+        display: true
+    - 
+      name: LMGP02010000
+      tags: 
+        classification:
+          category: Glycerophospholipids [GP]
+          class: Glycerophosphoethanolamines [GP02]
+          subclass: Diacylglycerophosphoethanolamines [GP0201]
+        is_lipid_group: true
+        source: LIPID MAPS
+        require_fas:
+          - "20:4"
+  26:
+    - 
+      name: "LPC 20:4"
+      tags: {}
+  27:
+    - 
+      name: "LPE 20:4"
+      tags: {}
+  28:
+    -
+      name: LPCAT1
+      tags:
+        is_protein: true
+        display: true
+  29:
+    -
+      name: LPCAT2
+      tags:
+        is_protein: true
+        display: true
+  30:
+    - 
+      name: MBOAT7
+      tags:
+        is_protein: true
+        display: true
+  31:
+    - 
+      name: MBOAT2
+      tags: 
+        is_protein: true
+        display: true
+nodes:
+  1:
+    entity: 1
+    x: 3
+    y: 12
+  3:
+    entity: 3
+    x: 3
+    y: 6
+  4:
+    entity: 4
+    x: 5
+    y: 9
+  6:
+    entity: 6
+    x: 7
+    y: 10
+  7:
+    entity: 7
+    x: 7
+    y: 8
+  8:
+    entity: 8
+    x: 11
+    y: 9
+  9:
+    entity: 9
+    x: 10.25
+    y: 6.5
+  10:
+    entity: 10
+    x: 9
+    y: 5
+  11:
+    entity: 23
+    x: 7
+    y: 4
+  12:
+    entity: 24
+    x: 13
+    y: 12
+  14:
+    entity: 25
+    x: 13
+    y: 6
+  15:
+    entity: 11
+    x: 15
+    y: 9
+  151:
+    entity: 111
+    x: 15.4
+    y: 9.8
+  16:
+    entity: 12
+    x: 17
+    y: 12
+  17:
+    entity: 13
+    x: 17
+    y: 6
+  18:
+    entity: 21
+    x: 16
+    y: 19
+  19:
+    entity: 22
+    x: 16
+    y: 17
+  20:
+    entity: 18
+    x: 18
+    y: 15
+  21:
+    entity: 20
+    x: 18
+    y: 18
+  22:
+    entity: 19
+    x: 20
+    y: 17
+  23:
+    entity: 17
+    x: 20
+    y: 15
+  24:
+    entity: 16
+    x: 20
+    y: 13
+  25:
+    entity: 14
+    x: 20
+    y: 9
+  26:
+    entity: 15
+    x: 22
+    y: 9
+  27:
+    entity: 12
+    x: 23
+    y: 12
+  28:
+    entity: 13
+    x: 23
+    y: 6
+  29:
+    entity: 26
+    x: 7
+    y: 12
+  30:
+    entity: 27
+    x: 7
+    y: 6
+edges:
+  - 
+    source_node: 11
+    target_node: 10
+    type: REACTION
+  - 
+    source_node: 10
+    target_node: 9
+    type: REACTION
+  - 
+    source_node: 9
+    target_node: 8
+    type: REACTION
+  - 
+    source_node: 12
+    target_node: 15
+    type: REACTION
+  - 
+    source_node: 14
+    target_node: 15
+    type: REACTION
+  - 
+    source_node: 15
+    target_node: 16
+    type: REACTION
+  - 
+    source_node: 15
+    target_node: 17
+    type: REACTION
+  - 
+    source_node: 16
+    target_node: 25
+    type: REACTION
+  - 
+    source_node: 17
+    target_node: 25
+    type: REACTION
+  - 
+    source_node: 24
+    target_node: 25
+    type: REACTION
+  - 
+    source_node: 25
+    target_node: 26
+    type: REACTION
+  - 
+    source_node: 25
+    target_node: 27
+    type: REACTION
+  - 
+    source_node: 25
+    target_node: 28
+    type: REACTION
+  - 
+    source_node: 23
+    target_node: 24
+    type: REACTION
+  - 
+    source_node: 20
+    target_node: 23
+    type: REACTION
+  - 
+    source_node: 22
+    target_node: 23
+    type: REACTION
+  - 
+    source_node: 21
+    target_node: 22
+    type: REACTION
+  - 
+    source_node: 19
+    target_node: 21
+    type: REACTION
+  - 
+    source_node: 18
+    target_node: 21
+    type: REACTION
+  - 
+    source_node: 8
+    target_node: 12
+    type: REACTION
+  - 
+    source_node: 8
+    target_node: 14
+    type: REACTION
+  - 
+    source_node: 6
+    target_node: 8
+    type: REACTION
+  - 
+    source_node: 7
+    target_node: 8
+    type: REACTION
+  - 
+    source_node: 4
+    target_node: 6
+    type: REACTION
+  - 
+    source_node: 4
+    target_node: 7
+    type: REACTION
+  - 
+    source_node: 4
+    target_node: 29
+    type: REACTION
+  - 
+    source_node: 4
+    target_node: 30
+    type: REACTION
+  - 
+    source_node: 4
+    target_node: 11
+    type: REACTION
+  - 
+    source_node: 29
+    target_node: 8
+    type: REACTION
+  - 
+    source_node: 30
+    target_node: 8
+    type: REACTION
+  - 
+    source_node: 1
+    target_node: 4
+    type: REACTION
+  - 
+    source_node: 3
+    target_node: 4
+    type: REACTION

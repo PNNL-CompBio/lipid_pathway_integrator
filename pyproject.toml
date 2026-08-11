@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lipid-pathway-integrator"
+dynamic = ["version"]
+requires-python = ">=3.14"
+dependencies = [
+    "PyYAML>=6.0.3",
+    "networkx>=3.6",
+    "requests>=2.32.5",
+    "matplotlib>=3.10.7",
+    "polars>=1.38.1",
+    "jupyter>=1.1.1",
+    "scipy>=1.18.0",
+    "lipidimea>=2.0.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["lipi"]
+
+[tool.setuptools.dynamic]
+version = {attr = "lipi.__version__"}
+
+[tool.setuptools.package-data]
+lipid_pathway_integrator = ["_resources/*"]
