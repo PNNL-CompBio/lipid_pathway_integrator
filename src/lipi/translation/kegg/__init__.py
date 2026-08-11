@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/translation/kegg/__init__.py
+lipi/translation/kegg/__init__.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Sub-package for ingesting reference pathways from KEGG

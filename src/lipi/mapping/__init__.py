@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/mapping/__init__.py
+lipi/mapping/__init__.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Sub-package with utilities for mapping omics data into pathway data model

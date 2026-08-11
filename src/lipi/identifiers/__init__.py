@@ -1,5 +1,5 @@
 """
-lipid_pathway_integratoridentifiers/__init__.py
+lipiidentifiers/__init__.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Utility for dealing with various eqivalent identifiers.
@@ -153,3 +153,4 @@ class IdentifierGroup:
         # fallthrough, no match found
         return False
    
+

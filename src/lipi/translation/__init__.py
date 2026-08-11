@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/translation/__init__.py
+lipi/translation/__init__.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Utilities related to translation of pathway information into and out of the

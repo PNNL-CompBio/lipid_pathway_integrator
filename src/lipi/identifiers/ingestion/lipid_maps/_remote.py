@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/identifiers/ingestion/lipid_maps/_remote.py
+lipi/identifiers/ingestion/lipid_maps/_remote.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Module for interacting with the LIPID MAPS REST API

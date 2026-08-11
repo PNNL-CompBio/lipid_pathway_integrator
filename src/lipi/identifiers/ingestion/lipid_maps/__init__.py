@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/identifiers/ingestion/lipid_maps/__init__.py
+lipi/identifiers/ingestion/lipid_maps/__init__.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Sub-package for mapping common lipid identifiers to the LIPID MAPS ontology

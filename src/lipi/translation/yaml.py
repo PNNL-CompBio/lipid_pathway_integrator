@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/translation/yaml.py
+lipi/translation/yaml.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Module for translating pathway data from/to YAML files

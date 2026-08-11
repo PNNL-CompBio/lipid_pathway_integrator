@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/network/__init__.py
+lipi/network/__init__.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Sub-package for defining the network-based pathway data model

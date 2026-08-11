@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/translation/kegg/_remote.py
+lipi/translation/kegg/_remote.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Module for interacting with the KEGG REST API

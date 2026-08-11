@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/refpath/manager.py
+lipi/refpath/manager.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Module with interface for interacting with reference pathway database
@@ -15,14 +15,14 @@ from collections.abc import Iterable
 
 from lipidimea._lipidlib.parser import parse_lipid_name
 
-from lipi import __version__ as LIPID_PATHWAY_INTEGRATOR_VERSION
+from lipi import __version__ as lipi_VERSION
 
 
 #===============================================================================
 # Constants
 
 # load the database schema, built into this package as a resource
-_SCHEMA = read_text("lipid_pathway_integrator._resources", "refpath_schema.sql")
+_SCHEMA = read_text("lipi._resources", "refpath_schema.sql")
 
 
 #===============================================================================
@@ -42,9 +42,9 @@ def _store_package_version(
     cur: sqlite3.Cursor
 ) -> None :
     """
-    Store the version of the `lipid_pathway_integrator` codebase that was used to initialize the database
+    Store the version of the `lipi` codebase that was used to initialize the database
     """
-    cur.execute(_insert_qry("Versions", 2), ("lipid_pathway_integrator", LIPID_PATHWAY_INTEGRATOR_VERSION))
+    cur.execute(_insert_qry("Versions", 2), ("lipi", lipi_VERSION))
 
 
 def _name_is_parsable_as_lipid(name: str) -> bool :
@@ -67,7 +67,7 @@ class RefPathManager:
 
     Attributes
     ----------
-    db_path
+    db_path 
         path to database file
     connected
         a boolean flag indicating whether the connection to the 
@@ -191,10 +191,10 @@ class RefPathManager:
         """ ensure the version is matched between the codebase and database, warn if not """
         cur = self.__con.cursor()
         qry = """--beginsql
-            SELECT version FROM Versions WHERE component='lipid_pathway_integrator';
+            SELECT version FROM Versions WHERE component='lipi';
         --endsql"""
-        if (db_ver := cur.execute(qry).fetchone()[0]) != LIPID_PATHWAY_INTEGRATOR_VERSION:
-            msg = f"RefPathManager: version mismatch between codebase ({LIPID_PATHWAY_INTEGRATOR_VERSION}) and database ({db_ver})"
+        if (db_ver := cur.execute(qry).fetchone()[0]) != lipi_VERSION:
+            msg = f"RefPathManager: version mismatch between codebase ({lipi_VERSION}) and database ({db_ver})"
             warnings.warn(msg)
 
     # --- methods: identifiers  ---

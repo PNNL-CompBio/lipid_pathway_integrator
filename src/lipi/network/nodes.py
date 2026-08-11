@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/network/nodes.py
+lipi/network/nodes.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Node class definitions
@@ -29,7 +29,7 @@ class _Node:
     igroup : `IdentifierGroup`
         the group of identifiers that are associated with this node
     stats : `Set[Statistic]`
-        Set of primary statistics (`lipid_pathway_integrator.stats.Statistc`) associated with this node
+        Set of primary statistics (`lipi.stats.Statistc`) associated with this node
     """
     igroup: IdentifierGroup
     stats: Set[Statistic] = field(default_factory=set) 
@@ -62,7 +62,7 @@ class Metabolite(_Node):
    igroup : `IdentifierGroup`
         the group of identifiers that are associated with this node
     stats : `Iterable[Statistic]`
-        collection of primary statistics (`lipid_pathway_integrator.stats.Statistc`) associated with this node
+        collection of primary statistics (`lipi.stats.Statistc`) associated with this node
     """
 
 
@@ -76,7 +76,7 @@ class Protein(_Node):
     igroup : `IdentifierGroup`
         the group of identifiers that are associated with this node
     stats : `Iterable[Statistic]`
-        collection of primary statistics (`lipid_pathway_integrator.stats.Statistc`) associated with this node
+        collection of primary statistics (`lipi.stats.Statistc`) associated with this node
     """
 
 @dataclass
@@ -89,7 +89,7 @@ class Lipid(_Node):
     igroup : `IdentifierGroup`
         the group of identifiers that are associated with this node
     stats : `Iterable[Statistic]`
-        collection of primary statistics (`lipid_pathway_integrator.stats.Statistc`) associated with this node
+        collection of primary statistics (`lipi.stats.Statistc`) associated with this node
     fa_carbon, fa_unsat : `int`
         sum composition of the lipid species
     fas : `set(tuple(int, int))`

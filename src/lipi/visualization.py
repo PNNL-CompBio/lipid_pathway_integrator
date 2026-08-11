@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/visualization.py
+lipi/visualization.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Define functions for visualizing pathway data

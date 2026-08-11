@@ -1,5 +1,5 @@
 """
-lipid_pathway_integrator/stats.py
+lipi/stats.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Define `Statistic` dataclass
@@ -66,7 +66,7 @@ def load_stats_from_csv(
     """
     Load some statistics from a `.csv` file returning a collection of 
     `IdentifierGroups` and `Statistics` that can be used with the 
-    `lipid_pathway_integrator.mapping.map_omics_data_to_pathway` function. 
+    `lipi.mapping.map_omics_data_to_pathway` function. 
     
     Expect two columns: 
     - metabolite/lipid/protein identifier
