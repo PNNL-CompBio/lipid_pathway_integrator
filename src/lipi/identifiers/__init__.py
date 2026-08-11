@@ -1,5 +1,5 @@
 """
-lipiidentifiers/__init__.py
+lipi/identifiers/__init__.py
 Dylan Ross (dylan.ross@pnnl.gov)
 
     Utility for dealing with various eqivalent identifiers.

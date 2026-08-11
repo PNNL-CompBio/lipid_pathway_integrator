@@ -168,3 +168,6 @@ _cache/
 *.pdf
 *.xlsx
 
+
+docs/api/generated/
+
