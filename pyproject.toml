@@ -4,6 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lipid-pathway-integrator"
+authors = [
+    { name = "Dylan Ross", email = "dylan.ross@pnnl.gov" }
+]
+description = "Unifies lipid ontology-aware representation and pathway-based multi-omics integration in a single framework"
+readme = "README.md"
 dynamic = ["version"]
 requires-python = ">=3.14"
 dependencies = [
