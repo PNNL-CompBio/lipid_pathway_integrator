@@ -13,7 +13,7 @@
 ```
 
 ## Documentation
-- [TODO](404)
+- [https://lipi.readthedocs.io/](https://lipi.readthedocs.io/)
 
 ## Demos
 - [GBM (CPTAC3)](demos/cptac_3_gbm/demo.ipynb)
