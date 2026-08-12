@@ -4,13 +4,11 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.14"
-    uv: "0.1"  # Use uv for faster builds
 
 python:
   install:
-    - method: uv
-      path: .
-      extra: docs
+    - method: pip
+      path: .[docs]
 
 sphinx:
   configuration: docs/conf.py
